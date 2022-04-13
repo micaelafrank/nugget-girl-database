@@ -6,3 +6,21 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+
+
+.buttonColor{
+    background-color: aquamarine;
+    padding: 10px;
+    border: 1px black;
+}
+
+#hide{
+        display: none;
+}
+
+.buttonColor:hover + #hide{
+    display: block;
+    font-size: 20px;
+    color:hotpink;
+    background-color: blueviolet;
+}
